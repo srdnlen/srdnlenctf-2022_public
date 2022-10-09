@@ -4,9 +4,9 @@ Srdnlen CTF 2022 is the first edition of the online Jeopardy-style Capture-The-F
 
 <p float="left">
   <a href="https://srdnlen.unica.it/">
-  <img src="images/srdnlen-logo.png" width="256" />
+  <img src="images/srdnlen-logo.png" height="256" />
   </a> <a href="https://cybersecnatlab.it">
-  <img src="images/cybersecnatlab-logo.png" width="256" /> 
+  <img src="images/cybersecnatlab-logo.png" height="256" /> 
   </a>
 </p>
 
