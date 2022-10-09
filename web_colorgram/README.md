@@ -1,6 +1,6 @@
 # srdnlenctf 2022
 
-## Colorgram (X solves)
+## Colorgram (0 solves)
 
 > I hope the colorblind community doesn't get offended by this chall...
 >
