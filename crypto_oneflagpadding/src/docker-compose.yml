@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  oneflagpadding:
+    container_name: oneflagpadding
+    build: .
+    ports:
+      - "9001:5555"
+    restart: unless-stopped
+    environment:
+      - FLAG=srdnlen{1_d0nt_kn0w_bl4bl4_s0m3th1ng_v333ry_l000ng_1s_b3tt3r}

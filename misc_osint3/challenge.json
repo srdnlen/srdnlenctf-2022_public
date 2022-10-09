@@ -1,0 +1,28 @@
+{
+  "title": "Osint 3",
+  "description": "Again troubles with my memory... Can you help me please to find when I took this photo? I can only remember was before Covid-19 in one of the sardinian ports, I think near Ichnusa.\n\nflag format: `srdnlen{dd-dd/mm/yyyy}`\n\nAuthor: @slsanna\n\nsha1sum: `7d7485ff7033c5d951ab27d4b3e731727984600c`",
+  "authors": [
+    "slsanna"
+  ],
+  "tags": [
+    "osint"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{21-23/06/2019\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "sailer.jpg",
+      "type": "upload",
+      "path": "./attachments/sailer.jpg"
+    }
+  ],
+  "hints": []
+}

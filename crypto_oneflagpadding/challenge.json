@@ -1,0 +1,33 @@
+{
+  "title": "One Flag Padding",
+  "description": "I like my flag a lot, so I decided to attach it to every message.\nWould you be able to steal it?\n\nThis is a remote challenge, you can connect to the service with:\n`nc oneflagpadding.challs.srdnlen.it 15006`\n\nAuthor: @zaua",
+  "authors": [
+    "zaua"
+  ],
+  "tags": [
+    "crypto"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{1_d0nt_kn0w_bl4bl4_s0m3th1ng_v333ry_l000ng_1s_b3tt3r\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "oneflagpadding.py",
+      "type": "upload",
+      "path": "./attachments/oneflagpadding.py"
+    }
+  ],
+  "hints": [],
+  "endpoint": {
+    "type": "tcp",
+    "host": "oneflagpadding.challs.srdnlen.it",
+    "port": 9001
+  }
+}

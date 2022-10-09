@@ -1,0 +1,28 @@
+{
+  "title": "Osint 2",
+  "description": "I found this wonderful river or lake when I was travelling in Sardinia, between the big mountain range and the coast. Can you find its name? I took a lot of picture in order to easily retrieve it\n\nAuthor: @slsanna\n\nsha1sum: `f093c85afd4d5fc7d382469b72877c2ed93883c9`",
+  "authors": [
+    "slsanna"
+  ],
+  "tags": [
+    "osint"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{cedrino\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "Photos-001.zip",
+      "type": "upload",
+      "path": "./attachments/Photos-001.zip"
+    }
+  ],
+  "hints": []
+}

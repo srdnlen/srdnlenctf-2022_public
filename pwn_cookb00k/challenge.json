@@ -1,0 +1,39 @@
+{
+  "title": "COOKB00K",
+  "description": "I coded this program to keep in order my delicious recipes.\n\nDuring development, I was having fun with function pointers when I started seeing some weird artifacts appearing on my screen!\n\nCan you please check if there is any security issue in my software?\n\nThis is a remote challenge, you can connect to the service with:\n`nc cookb00k.challs.srdnlen.it 15004`\n\nAuthor: @doliv\n\nsha1sum:\n\n`c921d66fcff5b55e45282657333576afd56b438c cookb00k`",
+  "authors": [
+    "doliv"
+  ],
+  "tags": [
+    "pwn"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{R3AllY_seCuR3_1nPuT5_hUH_e0f46f83\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "cookb00k",
+      "type": "upload",
+      "path": "./attachments/cookb00k"
+    }
+  ],
+  "hints": [],
+  "endpoint": {
+    "type": "tcp",
+    "host": "cookb00k.challs.srdnlen.it",
+    "port": 10350
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 30
+    }
+  }
+}

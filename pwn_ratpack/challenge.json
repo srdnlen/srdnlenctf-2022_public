@@ -1,0 +1,39 @@
+{
+  "title": "Rat Pack",
+  "description": "C-Cheesed to meet you?\n\nThis is a remote challenge, you can connect to the service with:\n`nc rats.challs.srdnlen.it 15002`\n\nAuthor: @zoop\n\nsha1sum:\n\n`dac0fc2fe842c7166858ba78bedd5997fc1231bb rats`",
+  "authors": [
+    "zoop"
+  ],
+  "tags": [
+    "pwn"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{celebrating_yet_another_stack_smash_09772fee\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "rats",
+      "type": "upload",
+      "path": "./attachments/rats"
+    }
+  ],
+  "hints": [],
+  "endpoint": {
+    "type": "tcp",
+    "host": "rats.challs.srdnlen.it",
+    "port": 10300
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 10
+    }
+  }
+}

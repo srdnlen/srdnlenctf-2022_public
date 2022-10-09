@@ -1,0 +1,28 @@
+{
+  "title": "WtfRSA",
+  "description": "Why can't i decrypt this?\n\nAuthor: @philippo01",
+  "authors": [
+    "philippo01"
+  ],
+  "tags": [
+    "crypto"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{p4y_att3nt1on_wh3n_y0u_ch00s3_th3_valu3_of_e\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "wtfRSA.txt",
+      "type": "upload",
+      "path": "./attachments/wtfRSA.txt"
+    }
+  ],
+  "hints": []
+}

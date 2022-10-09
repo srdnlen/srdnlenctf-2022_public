@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  challenge:
+    build: .
+    ports:
+      - "10200:5555"
+    restart: unless-stopped
+    environment:
+      - FLAG=srdnlen{good_at_video_games_0bad0b488d56}

@@ -1,0 +1,22 @@
+{
+  "title": "Welcome",
+  "description": "Welcome to Srdnlenctf! We found a strange behavior in our Discord, can you help us?\n\nWebsite: [https://discord.gg/3G69gpPp](https://discord.gg/3G69gpPp)\n\nAuthor: @slsanna",
+  "authors": [
+    "slsanna"
+  ],
+  "tags": [
+    "osint"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{Welcome_T0_srdnlenctf:\u03b5njoy!\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [],
+  "hints": []
+}

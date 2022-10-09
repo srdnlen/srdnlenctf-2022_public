@@ -1,0 +1,39 @@
+{
+  "title": "Connect4",
+  "description": "A game of Connect4! Winning is not enough to get the flag though...\n\nThis is a remote challenge, you can connect to the service with:\n\n`nc connect4.challs.srdnlen.it 15001`\n\nAuthor: @xavimel",
+  "authors": [
+    "xavimel"
+  ],
+  "tags": [
+    "pwn"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{c0nnect4_m0re_lik3_segfault_meolb5ND\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "connect4",
+      "type": "upload",
+      "path": "./attachments/connect4"
+    }
+  ],
+  "hints": [],
+  "endpoint": {
+    "type": "tcp",
+    "host": "connect4.challs.srdnlen.it",
+    "port": 10251
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 30
+    }
+  }
+}

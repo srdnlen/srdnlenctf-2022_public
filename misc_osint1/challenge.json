@@ -1,0 +1,28 @@
+{
+  "title": "Osint 1",
+  "description": "I had a terrible accident and I lost part of my memory. I found this picture in my laptop but cannot remember where I was and would like to come to that place, can you help me please to retrieve it? I need the coordinates up to the 4th decimal digit.\nflag format: srdnlen{xx.xxxx,yy.yyyy}\n\nAuthor: @slsanna\n\nsha1sum: `8699ea1ab377d4a8cca90c224a785866e34ec4b6`",
+  "authors": [
+    "slsanna"
+  ],
+  "tags": [
+    "osint"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{39\\.1888,9\\.1639\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "osint1.jpg",
+      "type": "upload",
+      "path": "./attachments/osint1.jpg"
+    }
+  ],
+  "hints": []
+}

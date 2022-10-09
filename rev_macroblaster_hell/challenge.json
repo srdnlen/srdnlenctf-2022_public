@@ -1,0 +1,28 @@
+{
+  "title": "MacroBlaster Hell",
+  "description": "Do you think you are really good at reversing VBA macros?\n\nThen the suffering caused by this challenge will be limited.\n\nMaybe.\n\nThe flag is divided into three parts, which will make sense when combined. Enclose the final result in srdnlen{} to solve the challenge. And be careful of nasty traps.\n\nNotes:\n\n1 - VERY important: this challenge is flagged as malware by various engines, but you can be 100% sure that there is no malware here. You can use it safely.\n\n2 - A large part of this challenge can be also solved in Linux\n\nAuthors: @fang and @astralXploit0",
+  "authors": [
+    "fang,astralXploit0"
+  ],
+  "tags": [
+    "rev"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{1nfect1on_ch4in_1s_L0nG\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "macroblaster_hell.doc",
+      "type": "upload",
+      "path": "./attachments/macroblaster_hell.doc"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,28 @@
+{
+  "title": "UNESCO",
+  "description": "An hacker worked for UNESCO and used their systems to make cryptocurrencies. As incident response team, we found this picture but it seems nothing interesting\nAuthor: @slsanna\n\nsha1sum: `923b9e1b4135ce3068b4f1235156b2a8c0d71a17`",
+  "authors": [
+    "slsanna"
+  ],
+  "tags": [
+    "forensics"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{Sardinian_World_Heritage_Sites\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "unesco_stego.png",
+      "type": "upload",
+      "path": "./attachments/unesco_stego.png"
+    }
+  ],
+  "hints": []
+}

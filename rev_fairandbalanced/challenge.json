@@ -1,0 +1,39 @@
+{
+  "title": "Fair and Balanced",
+  "description": "I swear it's skill based.\n\nThe flag is served by a remote service, you can connect to the service with:\n\n`nc fab.challs.srdnlen.it 15000`\n\nAuthor: @zoop\n\nsha1sum:\n\n`ae9913f106ed8f4a288855558139598bfedbc7eb client`",
+  "authors": [
+    "zoop"
+  ],
+  "tags": [
+    "rev"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{good_at_video_games_0bad0b488d56\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "client",
+      "type": "upload",
+      "path": "./attachments/client"
+    }
+  ],
+  "hints": [],
+  "endpoint": {
+    "type": "tcp",
+    "host": "fab.challs.srdnlen.it",
+    "port": 10200
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 10
+    }
+  }
+}

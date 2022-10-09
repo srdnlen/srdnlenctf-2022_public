@@ -1,0 +1,28 @@
+{
+  "title": "Network keylogger",
+  "description": "From our monitoring systems we found different weird logs and found this capture but we cannot analyze it, also there are some bytes that we cannot understand, can you help us?\n\nAuthor: @slsanna\n\nsha1sum: `5f09608bda847b9304125f8168466682e14c626d`",
+  "authors": [
+    "slsanna"
+  ],
+  "tags": [
+    "forensics"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{Us8_Tr4ff1c_1S_Fun_T0_D3C0d3\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "keyboard.pcap",
+      "type": "upload",
+      "path": "./attachments/keyboard.pcap"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  easyrsa:
+    container_name: easyrsa
+    build: .
+    ports:
+      - "9000:5555"
+    restart: unless-stopped
+    environment:
+      - FLAG=srdnlen{d0_y0u_kn0w_m0dul4r_ar1thm3t1c?}

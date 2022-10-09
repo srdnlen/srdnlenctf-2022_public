@@ -1,0 +1,28 @@
+{
+  "title": "LenSrdnBand-corrupted",
+  "description": "An unknown user sent us this text file which appears to contain random characters, would you help us to find his secret?\n\nAuthor: @minne\n\nsha1sum: `12ef137fae1779aff2380ec1f293ecbf5c6239ff`",
+  "authors": [
+    "minne"
+  ],
+  "tags": [
+    "forensics"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{Th1s_1m4g3_1s_c0rrupt3d\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "LenSrdnBand-corrupted",
+      "type": "upload",
+      "path": "./attachments/LenSrdnBand-corrupted"
+    }
+  ],
+  "hints": []
+}

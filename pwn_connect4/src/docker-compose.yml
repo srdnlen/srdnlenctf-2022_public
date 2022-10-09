@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  challenge:
+    build: .
+    ports:
+      - "10251:5555"
+    restart: unless-stopped
+    environment:
+      - FLAG=srdnlen{not the flag, check dir}

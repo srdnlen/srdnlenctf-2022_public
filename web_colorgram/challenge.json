@@ -1,0 +1,38 @@
+{
+  "title": "Colorgram",
+  "description": "I hope the colorblind community doesn't get offended by this chall...\n\nWebsite: [http://colorgram.challs.srdnlen.it/login.php](http://colorgram.challs.srdnlen.it/login.php)\n\nAuthor: @takenX10",
+  "authors": [
+    "takenX10"
+  ],
+  "tags": [
+    "web"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{N1ce_J0B_s0rry_f0r_th1s_X55_4nd_h77p0nly_bypass\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "colorgram.zip",
+      "type": "upload",
+      "path": "./attachments/colorgram.zip"
+    }
+  ],
+  "hints": [],
+  "endpoint": {
+    "type": "http",
+    "url": "http://colorgram.challs.srdnlen.it:80/"
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 10
+    }
+  }
+}

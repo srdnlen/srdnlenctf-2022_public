@@ -1,0 +1,1 @@
+tcp,rats.challs.srdnlen.it,10300

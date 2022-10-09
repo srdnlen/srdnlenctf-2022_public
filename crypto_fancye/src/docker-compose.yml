@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  fancye:
+    container_name: fancye
+    build: .
+    ports:
+      - "9002:5555"
+    restart: unless-stopped
+    environment:
+      - FLAG=srdnlenctf{mYe15F4ncYbUTunS3cur35oplzd0ntcR4Ck1t}

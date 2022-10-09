@@ -1,0 +1,32 @@
+{
+  "title": "PugQL",
+  "description": "Pug Query Language (PugQL) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.\n\nWebsite: [http://pugql.challs.srdnlen.it](http://pugql.challs.srdnlen.it)\n\nAuthor: @dockOck",
+  "authors": [
+    "dockOck"
+  ],
+  "tags": [
+    "web"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{1_l0v3_Pu4s_th3y_4r3_s0_Cu73\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [],
+  "hints": [],
+  "endpoint": {
+    "type": "http",
+    "url": "http://pugql.challs.srdnlen.it:80/"
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 10
+    }
+  }
+}

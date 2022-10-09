@@ -1,0 +1,28 @@
+{
+  "title": "Breach Paradigm",
+  "description": "You look like a piece of hackable code.\n\nThis is a fully local challenge.\n\nAuthor: @zoop\n\nsha1sum:\n\n`8800aa6ad4fdce3a77967b6c0917b464c4e23224 breach`",
+  "authors": [
+    "zoop"
+  ],
+  "tags": [
+    "rev"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{wholesome_chungus_100_4aa58bf31d\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "breach",
+      "type": "upload",
+      "path": "./attachments/breach"
+    }
+  ],
+  "hints": []
+}

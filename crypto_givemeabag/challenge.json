@@ -1,0 +1,33 @@
+{
+  "title": "Give Me A Bag",
+  "description": "Some time ago ... a bag ... a cipher ... what to do?\n\nAuthor: @Geladen",
+  "authors": [
+    "qnq"
+  ],
+  "tags": [
+    "crypto"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{MH_say:Ke3p_w_Pr1vate\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "givemeabag.py",
+      "type": "upload",
+      "path": "./attachments/givemeabag.py"
+    },
+    {
+      "name": "output.txt",
+      "type": "upload",
+      "path": "./attachments/output.txt"
+    }
+  ],
+  "hints": []
+}

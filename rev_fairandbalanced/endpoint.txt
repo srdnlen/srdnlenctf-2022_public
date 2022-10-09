@@ -1,0 +1,1 @@
+tcp,fab.challs.srdnlen.it,10200

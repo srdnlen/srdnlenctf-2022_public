@@ -1,0 +1,39 @@
+{
+  "title": "Easy RSA",
+  "description": "An easy RSA chall...\n\nThis is a remote challenge, you can connect to the service with:\n`nc easyrsa.challs.srdnlen.it 15005`\n\nAuthor: @philippo01",
+  "authors": [
+    "philippo01"
+  ],
+  "tags": [
+    "crypto"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{d0_y0u_kn0w_m0dul4r_ar1thm3t1c\\?\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "easyrsa.py",
+      "type": "upload",
+      "path": "./attachments/easyrsa.py"
+    }
+  ],
+  "hints": [],
+  "endpoint": {
+    "type": "tcp",
+    "host": "easyrsa.challs.srdnlen.it",
+    "port": 9000
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 10
+    }
+  }
+}

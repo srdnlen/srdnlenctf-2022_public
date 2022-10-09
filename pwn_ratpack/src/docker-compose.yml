@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  challenge:
+    build: .
+    ports:
+      - "10300:5555"
+    restart: unless-stopped
+    environment:
+      - FLAG=srdnlen{celebrating_yet_another_stack_smash_09772fee}

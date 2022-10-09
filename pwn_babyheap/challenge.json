@@ -1,0 +1,49 @@
+{
+  "title": "babyheap",
+  "description": "Enjoy the null ...\n\nThis is a remote challenge, you can connect to the service with:\n\n`nc babyheap.challs.srdnlen.it 15003`\n\nAuthor: @ricchi24\n\nsha1sum(s):\n\n```bash\n6116d9f64bf06fbe5a5c4688b4fce88620936044 babyheap\n7db501b4ac0906d2bc76154be2e474ca49a83ad3 ld-linux-x86-64.so.2\n8f7d59c6f95b0cf57a8db165033296dda91d1239 libc.so.6\n```",
+  "authors": [
+    "ricchi24"
+  ],
+  "tags": [
+    "pwn"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{ju57_4n07h3r_b4byh34p\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [
+    {
+      "name": "babyheap",
+      "type": "upload",
+      "path": "./attachments/babyheap"
+    },
+    {
+      "name": "ld-linux-x86-64.so.2",
+      "type": "upload",
+      "path": "./attachments/ld-linux-x86-64.so.2"
+    },
+    {
+      "name": "libc.so.6",
+      "type": "upload",
+      "path": "./attachments/libc.so.6"
+    }
+  ],
+  "hints": [],
+  "endpoint": {
+    "type": "tcp",
+    "host": "babyheap.challs.srdnlen.it",
+    "port": 15010
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 60
+    }
+  }
+}

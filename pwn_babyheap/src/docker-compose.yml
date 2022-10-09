@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  babyheap:
+    build: .
+    container_name: babyheap 
+    restart: unless-stopped
+    ports:
+      - 15010:7337

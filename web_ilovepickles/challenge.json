@@ -1,0 +1,32 @@
+{
+  "title": "I love pickles",
+  "description": "My Sardinian friend says she hates \"su cugumere cunfettau\", but I love them, on top of my burger and in my code.\n\nIf you really know your pickles you can enter in my admin area.\n\nWebsite: [http://ilovepickles.challs.srdnlen.it](http://ilovepickles.challs.srdnlen.it)\n\nAuthor: @pysu",
+  "authors": [
+    "pysu"
+  ],
+  "tags": [
+    "web"
+  ],
+  "hiddenTags": [],
+  "flags": [
+    "^srdnlen\\{0h_n0000_y_d1d_1_trust_y0u\\?\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 50,
+    "stop": 500,
+    "decay": "30"
+  },
+  "files": [],
+  "hints": [],
+  "endpoint": {
+    "type": "http",
+    "url": "http://ilovepickles.challs.srdnlen.it:80/"
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 10
+    }
+  }
+}

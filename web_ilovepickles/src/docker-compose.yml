@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  challenge:
+    build: .
+    ports:
+      - "8081:5000"
+    restart: unless-stopped
+    environment:
+      - FLAG=srdnlen{0h_n0000_y_d1d_1_trust_y0u?}
