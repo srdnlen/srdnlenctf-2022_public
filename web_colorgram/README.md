@@ -93,7 +93,7 @@ Final payload, barely inside the 48 characters limit:
 %250CoNload=window.open((/account.php?name=sos/))
 ```
 
-The last thing to remember is that you should use the challenge url inside your fetch to make it work locally, but to make it work for the admin you should use the internal url `http://colorgram:80/`
+The last thing to remember is that you should use the challenge url inside your fetch to make it work locally, but to make it work for the admin you should use the internal url `http://colorgram-app/`
 
 Proof of concept below.
 
