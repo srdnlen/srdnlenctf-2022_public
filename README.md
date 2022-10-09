@@ -40,7 +40,7 @@ Srdnlen CTF 2022 is the first edition of the online Jeopardy-style Capture-The-F
 | Crypto   | [wtfRSA](/crypto_wtfrsa)                              | [philippo01](https://github.com/philippo01) |          |                                  |       |
 | Crypto   | [One Flag Padding](/crypto_oneflagpadding)            | [zaua](https://github.com/giomanca97)       |      tcp | oneflagpadding.challs.srdnlen.it | 15006 |
 | Crypto   | [Fancy_e](/crypto_fancye)                             | [zaua](https://github.com/giomanca97)       |      tcp |         fancye.challs.srdnlen.it | 15007 |
-| Crypto   | [Give Me A Bag](/crypto_givemeabag)                   | [Geladen](.)                                |          |                                  |       |
+| Crypto   | [Give Me A Bag](/crypto_givemeabag)                   | [Geladen](https://github.com/Geladen)                                |          |                                  |       |
 
 ## Final scoreboard
 
